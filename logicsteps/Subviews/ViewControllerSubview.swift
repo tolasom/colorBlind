@@ -65,7 +65,7 @@ final class ViewControllerSubview {
             make.width.equalToSuperview().dividedBy(6)
             make.height.equalTo(40)
             make.top.equalToSuperview()
-            make.
+            
         }
     }
 }
