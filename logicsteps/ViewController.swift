@@ -9,12 +9,6 @@
 import UIKit
 
 class ViewController: UIViewController {
-
-    
-    @IBOutlet weak var colorblindUIImageView: UIImageView!
-    @IBOutlet weak var normalUIImageView: UIImageView!
-    @IBOutlet weak var colorblindCard: UIView!
-    @IBOutlet weak var normalCard: UIView!
     @IBOutlet weak var purpleBtn: UIButton!
     @IBOutlet weak var yellowBtn: UIButton!
     @IBOutlet weak var pinkBtn: UIButton!
@@ -57,22 +51,6 @@ class ViewController: UIViewController {
         purpleBtn.layer.cornerRadius = 10
         purpleBtn.layer.borderWidth = 1
         purpleBtn.layer.borderColor = UIColor.systemPurple.cgColor
-        
-        normalCard.layer.cornerRadius = 10
-        normalCard.layer.borderWidth = 0.1
-        normalCard.layer.shadowColor = UIColor.gray.cgColor
-        normalCard.layer.shadowOffset = CGSize(width: -1, height: 1)
-        normalCard.layer.opacity = 0.5
-        
-        colorblindCard.layer.cornerRadius = 10
-        colorblindCard.layer.borderWidth = 0.1
-        colorblindCard.layer.shadowColor = UIColor.gray.cgColor
-        colorblindCard.layer.shadowOffset = CGSize(width: -1, height: 1)
-        colorblindCard.layer.opacity = 0.5
-        
-//        roundImageCard.layer.cornerRadius = 60
-//        roundImageCard.layer.borderWidth = 2
-//        roundImageCard.layer.borderColor = UIColor.orange.cgColor
         
         
         
