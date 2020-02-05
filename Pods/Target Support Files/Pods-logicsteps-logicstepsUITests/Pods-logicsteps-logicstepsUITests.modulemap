@@ -1,0 +1,6 @@
+framework module Pods_logicsteps_logicstepsUITests {
+  umbrella header "Pods-logicsteps-logicstepsUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
