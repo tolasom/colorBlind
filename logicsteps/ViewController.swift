@@ -9,11 +9,15 @@
 import UIKit
 
 class ViewController: UIViewController {
+
+    
     @IBOutlet weak var purpleBtn: UIButton!
     @IBOutlet weak var yellowBtn: UIButton!
     @IBOutlet weak var pinkBtn: UIButton!
+    
     @IBOutlet weak var grayBtn: UIButton!
     @IBOutlet weak var orangeBtn: UIButton!
+    
     @IBOutlet weak var greenBtn: UIButton!
     @IBOutlet weak var blueBtn: UIButton!
     @IBOutlet weak var redBtn: UIButton!
@@ -34,7 +38,7 @@ class ViewController: UIViewController {
         
         orangeBtn.layer.cornerRadius = 10
         orangeBtn.layer.borderWidth = 1
-        orangeBtn.layer.borderColor = UIColor.white.cgColor
+        orangeBtn.layer.borderColor = UIColor.orange.cgColor
         
         grayBtn.layer.cornerRadius = 10
         grayBtn.layer.borderWidth = 1
@@ -46,11 +50,15 @@ class ViewController: UIViewController {
         
         yellowBtn.layer.cornerRadius = 10
         yellowBtn.layer.borderWidth = 1
-        yellowBtn.layer.borderColor = UIColor.systemYellow.cgColor
+        yellowBtn.layer.borderColor = UIColor.yellow.cgColor
         
         purpleBtn.layer.cornerRadius = 10
         purpleBtn.layer.borderWidth = 1
-        purpleBtn.layer.borderColor = UIColor.systemPurple.cgColor
+        purpleBtn.layer.borderColor = UIColor.purple.cgColor
+        
+        
+
+       
         
         
         

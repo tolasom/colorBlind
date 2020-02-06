@@ -2,17 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "reversearrow.png",
+      "filename" : "orange-blindness.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "filename" : "reversearrow-1.png",
+      "filename" : "orange-blindness-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "filename" : "reversearrow-2.png",
+      "filename" : "orange-blindness-2.png",
       "scale" : "3x"
     }
   ],
